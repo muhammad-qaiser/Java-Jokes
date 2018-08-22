@@ -17,7 +17,7 @@ import com.learning.sami.joketeller.Jokes;
 )
 public class MyEndpoint {
 
-    /** A simple endpoint method that takes a name and says Hi back */
+    /** An endpoint method that tells a joke */
     @ApiMethod(name = "tellAJoke")
     public MyBean tellAJoke() {
         MyBean response = new MyBean();
